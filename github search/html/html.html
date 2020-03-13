@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>github ex3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
+</head>
+
+<body class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+
+            <h1 class="font-weight-bolder text-center">GitHub Search</h1>
+            <h6>Username:</h6>
+            <input type="text" class="form-control" placeholder="Enter a GitHub username" id="user_input">
+
+            <div class="mt-2">
+                <button type="button" class="btn btn-warning" id="searchButn">Search</button>
+                <button type="button" class="btn btn-success " id="saveButn">Save</button>
+                <button type="button" class="btn btn-danger " id="deleteButn">Delete</button>
+            </div>
+
+            <div class="alert alert-danger mt-3 d-none" role="alert" id="alertBox"></div>
+
+        </div>
+
+
+    </div>
+
+    <div class="row mt-3">
+
+        <div class="col-sm-6 d-none" id="demo-box">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="alert alert-info" id="username"></div>
+                    <div class="display-4 font-weight-bold"> Repositories </div>
+                    <div id="repo-info"></div>
+                    <div id="publicRepo"></div>
+                    <div id="user-details"></div>
+                    <div class="display-4 font-weight-bold"> Followers </div>
+                    <div id="followers-info"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-sm-6 ">
+            <div class="card shadow">
+                <div class="card-body" id="saved-box">
+                    <div class="alert alert-info">saved:</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+    <script src='../javascript/script.js'></script>
+</body>
+
+</html>
