@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TO DO LIST</title>
+    <style>
+        ul {
+            list-style-type: georgian;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="jumbotron">
+                <h1>internet programing course solange</h1>
+                <h2>
+                    to do list
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button id="showCompleted" type="submit">show completed</button>
+            <br /><br />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input
+                    type="text"
+                    id="myText"
+                    class="form-control"
+                    placeholder="Type your to-do list"
+                    name="search"
+            />
+        </div>
+        <div class="col">
+            <button id="submit" type="submit">Add item</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="error" class="alert-warning"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <ul id="myList"class="alert-success list-group"></ul>
+        </div>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
