@@ -3,14 +3,8 @@ internet course
 
 ## Exercises
 
-[Products](Products) - add remove update alete products using ajax jQuery.
+[github search](github) - github using nodejs-express sqlite D.B.
 
-[Register](Register) - registration authorization form.
+[github search](githubsearch) - SPA website using Ajax, Promises, REST services.
 
-[circle area](circlearea) - calculate circle area and print it.
-
-[project](project) - to-do list project.
-
-[snake](snake) - oop jquery-snake-game.
-
-[weather](weather) - API wather website.
+[to-do list](to-dolist) - to do list using javascript.
